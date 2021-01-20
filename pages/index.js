@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function IndexPage({ products }) {
   return (
-    <div className="flex items-center justify-center h-screen bg-blek-100">
+    <div className="flex items-center justify-center h-screen bg-white">
       <h2>Product Card Demos</h2>
       {products.map((product, index) => (
         <Link key={index} href={`/products/${product.sku.toLowerCase()}`}>

@@ -1092,9 +1092,9 @@
     lodash "^4.17.20"
 
 "@commercelayer/react-components@^1.5.1":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@commercelayer/react-components/-/react-components-1.5.2.tgz#8f45ed55d0603c8836ac0761838347d3c2545c96"
-  integrity sha512-1rVl/FSR/QfyEZYk74AGzHPtHEUUsWzuChFb+mTCnD2U5MOxbOFkJyHk0fF7Gd3sS50eOAwfzg2e4fNyVoMMaw==
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@commercelayer/react-components/-/react-components-1.5.3.tgz#788d5e9432112b0fd058dca4a5d4e8a32d00f625"
+  integrity sha512-WdZoV1pXCSl9jRDpckgL40ygL21PUGujrQXtM8UW5M8LaMC3LrD7u3a/eNPQYGXBiDBgjdRmCiLxZSYL+Aj96A==
   dependencies:
     "@commercelayer/js-sdk" "^3.0.0"
     lodash "^4.17.20"
@@ -1111,6 +1111,15 @@
   dependencies:
     postcss "7.0.32"
     purgecss "^2.3.0"
+
+"@graphcms/migration@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@graphcms/migration/-/migration-0.0.15.tgz#a9e6e084249e3a93093c315ecbe8d8f0d7551707"
+  integrity sha512-O8NR4Om1t0m7uop8ucjvSgPq9i4wMuaJIJuOCrztBMP+5MBGsDHvEHm5RRMvX17ULG0OUW0Ln+zuVUkmcifWFg==
+  dependencies:
+    "@types/node" "^14.11.2"
+    graphql-request "2.1.0-next.1"
+    uuid "^8.3.0"
 
 "@hapi/accept@5.0.1":
   version "5.0.1"
@@ -1179,6 +1188,11 @@
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
   integrity sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
+
+"@types/node@^14.11.2":
+  version "14.14.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.9.tgz#04afc9a25c6ff93da14deabd65dc44485b53c8d6"
+  integrity sha512-JsoLXFppG62tWTklIoO4knA+oDTYsmqWxHRvd4lpmfQRNhX6osheUOWETP2jMoV/2bEHuMra8Pp3Dmo/stBFcw==
 
 "@types/tough-cookie@^2.3.5":
   version "2.3.7"
@@ -2255,7 +2269,7 @@ cross-fetch@3.0.5:
   dependencies:
     node-fetch "2.6.0"
 
-cross-fetch@3.0.6:
+cross-fetch@3.0.6, cross-fetch@^3.0.4:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.0.6.tgz#3a4040bc8941e653e0e9cf17f29ebcd177d3365c"
   integrity sha512-KBPUbqgFjzWlVcURG+Svp9TlhA5uliYtiNx/0r8nv0pdypeQCRJ9IaSIc3q/x3q8t3F75cHuwxVql1HFGHCNJQ==
@@ -3034,6 +3048,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
+
+graphql-request@2.1.0-next.1:
+  version "2.1.0-next.1"
+  resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-2.1.0-next.1.tgz#d0771d814ebcb39ea67208da12e301f3f5d6a80d"
+  integrity sha512-9Qr+z4FCzxwFrnG9BE366v9KcgRXLv2bmFkj3RHfSQNDgPHCUM2mA83bwjhgxg4jig/F8X/pcceOZPwRkMleKQ==
+  dependencies:
+    cross-fetch "^3.0.4"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -6031,6 +6052,11 @@ util@^0.11.0:
   integrity sha512-HShAsny+zS2TZfaXxD9tYj4HQGlBezXZMZuM/S5PKLLoZkShZiGk9o5CzukI1LVHZvjdvZ2Sj1aW/Ndn2NB/HQ==
   dependencies:
     inherits "2.0.3"
+
+uuid@^8.3.0:
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
+  integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
 
 vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"

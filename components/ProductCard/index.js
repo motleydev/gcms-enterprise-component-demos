@@ -25,7 +25,7 @@ function ProductCard({ product }) {
 
   return (
     <div
-      className={`flex w-2/3 overflow-hidden text-${color}-600 bg-white shadow-xl rounded-xl`}
+      className={`flex w-2/3 overflow-hidden text-${color}-600 bg-white shadow-xl rounded-xl border border-blek-100`}
       style={{ height: 500 }}
     >
       <Layout url={image.url} />

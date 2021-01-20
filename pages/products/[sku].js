@@ -4,7 +4,7 @@ import WineNav from "../../components/ProductCard/WineNav";
 
 export default function IndexPage({ product, products }) {
   return (
-    <div className="flex items-center justify-center h-screen bg-blek-100">
+    <div className="flex items-center justify-center h-screen bg-white">
       <ProductCard product={product} />
       <WineNav products={products} />
     </div>
